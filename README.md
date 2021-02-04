@@ -8,7 +8,7 @@
 
 ##### - CSS3
 
-##### - Media Querys :
+##### - Media Queries :
 
 ##### Full screen:
 
@@ -37,5 +37,3 @@
 
 ![](/image/responsiveScreen.gif)
 
-
-# DIO
