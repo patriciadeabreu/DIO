@@ -12,24 +12,30 @@
 
 ##### Full screen:
 
+![](/image/full-screen.jpg)
+
+
 ##### 1024px:
-
-
+![](/image/1024px-screen.jpg)
 
 ##### 768px:
 
 
+![](/image/768px-screen.jpg)
 
-#####  650px:
+#####  425px:
 
 
+![](/image/425px-screen.jpg)
 
 ##### 320px:
 
+![](/image/320px-screen.jpg)
 
 
+#### responsive screen:
 
-
+![](/image/responsiveScreen.gif)
 
 
 # DIO
