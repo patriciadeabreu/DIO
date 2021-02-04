@@ -119,8 +119,8 @@ body {
 
 .app-download {
     display: flex;
-    min-height: 2.93rem;
-    min-width: 40%;
+    min-height: 3rem;
+    min-width: 10.25rem;
     background-size: cover;
 }
 
@@ -132,40 +132,63 @@ body {
     background-image: url('./image/google-button.png');   
 }
 
-/* Sreen 768px*/
-@media (max-width: 768px) {
+/*Screen 1024px*/
 
-    .instagram-wrapper{
-    gap: 3rem
-    }
-
-    .instagram-phone img {
-        height: 40rem;
-    }
-
-    .instagram-continue {
-        min-height: 38rem;
-        min-width: 60%;
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
     }
 
     .app-download {
-        min-height: 2.3rem;
-        min-width: 52%;
+        min-height: 3.35rem;
     }
 }
 
-/*screen 560px-320px*/
-@media (min-width: 320px) and (max-width: 560px) {
-    
+@media (max-width: 650px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+
     .instagram-phone {
         display: none;
     }
 
-    .instagram-wrapper {
-        min-width: 100%;
-        max-height: 100%;
+    .instagram-continue {
+        width: 100%;
     }
-
-
 }
 
+/*Screen 1024px*/
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .app-download {
+        min-height: 2.65rem;
+        min-width: 9rem;
+        padding: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .app-download {
+        min-height: 2.2rem;
+        min-width: 7.5em;
+    }
+}
